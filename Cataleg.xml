@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd"> 
+
+<cataleg>
+    <llista_actors>
+
+        <actor id="a1">
+            <nom>Brad Pitt</nom>
+            <edat>61</edat>
+        </actor>
+
+        <actor id="a2">
+            <nom>Edward Norton</nom>
+            <edat>55</edat>
+        </actor>
+
+        <actor id="a3">
+            <nom>Emiko Furukawa</nom>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+
+        <pelicula id="p1">
+            <titol idioma="En">Club de la lucha</titol>
+            <director>David Fincher</director>
+            <any>1999</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="p2">
+            <titol idioma="Jap">Perfect blue</titol>
+            <director>Satoshi Kon</director>
+            <any>1997</any>
+            <actors>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p1"/>
+        <recomanacio ref="p2"/>
+    </llista_recomanacions_pelicules>
+
+</cataleg>
